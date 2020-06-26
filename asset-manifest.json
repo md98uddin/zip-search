@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/zip-search/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/zip-search/static/js/main.440cb9bd.chunk.js",
+    "main.js.map": "/zip-search/static/js/main.440cb9bd.chunk.js.map",
+    "runtime-main.js": "/zip-search/static/js/runtime-main.49a3c732.js",
+    "runtime-main.js.map": "/zip-search/static/js/runtime-main.49a3c732.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/zip-search/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.af83923d.chunk.js": "/zip-search/static/js/2.af83923d.chunk.js",
+    "static/js/2.af83923d.chunk.js.map": "/zip-search/static/js/2.af83923d.chunk.js.map",
+    "index.html": "/zip-search/index.html",
+    "precache-manifest.1fe5d90663aae9bc72f1b4680ee9a7fd.js": "/zip-search/precache-manifest.1fe5d90663aae9bc72f1b4680ee9a7fd.js",
+    "service-worker.js": "/zip-search/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/zip-search/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/zip-search/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.af83923d.chunk.js.LICENSE.txt": "/zip-search/static/js/2.af83923d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49a3c732.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.af83923d.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.440cb9bd.chunk.js"
+  ]
+}
