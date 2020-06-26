@@ -3,7 +3,7 @@ import React from "react";
 const CitiesCard = ({ cities }) => {
   return cities ? (
     <div className="container">
-      {cities !== "no results" ? (
+      {(cities !== "no results") & (cities !== null) ? (
         <div className="card-container">
           {cities.map((city) => (
             <div className="card" key={city.RecordNumber}>
