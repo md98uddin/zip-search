@@ -31,7 +31,7 @@ class App extends Component {
   };
 
   fetchCities = (zip) => {
-    Axios.get(`http://ctp-zip-api.herokuapp.com/zip/${zip}`)
+    Axios.get(`https://ctp-zip-api.herokuapp.com/zip/${zip}`)
       .then((res) => {
         if (res.data)
           this.setState({
