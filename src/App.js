@@ -14,31 +14,37 @@ class App extends Component {
     };
   }
 
+  //if zip provided, call api function
   async componentDidMount() {
     if (this.state.zip) {
       return this.fetchCities(this.state.zip);
     }
   }
 
+  //handle input field for zip
   handleChange = (e) => {
     this.setState({
       [e.target.id]: e.target.value,
     });
   };
 
+  //on zip sub,it, call api function
   onSubmitZip = async (e) => {
     return this.fetchCities(this.state.zip);
   };
 
+  //api function to fetch by zip parameter
   fetchCities = (zip) => {
     Axios.get(`https://ctp-zip-api.herokuapp.com/zip/${zip}`)
       .then((res) => {
+        //if success, set state to data
         if (res.data)
           this.setState({
             cities: res.data,
           });
       })
       .catch((error) => {
+        //if error, set state to error
         this.setState({
           cities: "no results",
         });
@@ -46,9 +52,6 @@ class App extends Component {
   };
 
   render() {
-    console.log("cities", this.state.cities);
-    console.log("zip", this.state.zip);
-
     return (
       <React.Fragment>
         <Navbar
